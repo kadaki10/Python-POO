@@ -1,10 +1,11 @@
-from exercicios.exercicio9.exercicio9 import Avaliacao
+from exercicio10 import Avaliacao
 from rich import print, inspect
 
 def main():
     av1 = Avaliacao("Pedro", "Matematica", 9.5)
-    av1.set_nota = (-2.5)
-    inspect(av1, private=True)
+    av1.nota = 3.5
+    print(f"{av1.nome}")
+    #inspect(av1, private=True)
 
 if __name__ == "__main__":
     main()
